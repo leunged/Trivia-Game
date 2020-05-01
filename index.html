@@ -1,0 +1,42 @@
+
+<!--
+Name: Edmund Leung
+ID: 991531421
+Assignment #1: Trivia Game
+Date Created: January 29, 2019
+Date Modified: January 31, 2019
+Description: A trivia game that asks the user questions. 
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Trivia Game</title>
+        <link href="css/trivia.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container">
+            <div id="question" class="question"></div>
+            <input type="radio" name="choice" value="1"><span id="choice1"></span><br>
+            <input type="radio" name="choice" value="2"><span id="choice2"></span><br>
+            <input type="radio" name="choice" value="3"><span id="choice3"></span><br>
+            <input type="radio" name="choice" value="4"><span id="choice4"></span><br>
+        </div>
+        <br>
+        <div id="container2">
+            <button id="next" onclick="nextQuestion()">Next Question</button>
+        </div>
+        <br>
+        <div id="container3">
+            <button id="help" onclick="help()">Help</button>
+            <button id="restart" onclick="restart()">Restart</button>
+        </div>
+        <div id="container4" style="display: none;">
+            <p id="title">Game Instructions</p>
+            <p id="rules">Choose an answer and click the Next Question button.<br>Click the Restart button to restart the game.<br>Your score will be displayed in the end.</p>
+            <button id="back" onclick="back()">Back</button>
+        </div>
+        <br>
+        <div id="result" style="display: none;">
+    </body>
+    <script src="js/quiz.js"></script>
+</html>

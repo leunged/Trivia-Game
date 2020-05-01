@@ -1,0 +1,28 @@
+/*
+Name: Edmund Leung
+ID: 991531421
+Assignment #1: Trivia Game
+Date Created: January 29, 2019
+Date Modified: January 31, 2019
+Description: A cascading style sheet for the trivia game. 
+*/
+body {
+    text-align: center;
+    font-family: Arial;
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+    border: 10px solid ghostwhite;
+    color: ghostwhite;
+    background-color: #ff0000;
+}
+
+.question {
+    font-size: 36px;
+    padding: 20px;
+    border-style: double;
+    border-width: 5px;
+    color: #ff0000;
+    background-color: ghostwhite;
+}
